@@ -41,6 +41,8 @@ cd deploy
 # if you want to get help, please run
 python3 ./deploy.py --help
 
+# if you use delivery/scripts, you can just modify region and resource group name.
+# it uses names, like cos-hmac-reader, for secrets
 python3 ./deploy.py -o create -r jp-tok -g c4c-covid-19 -n data-proxy -c cos-hmac-reader,cos-hmac-writer -l cloudant-key-reader,cloudant-key-writer
 ```
 
