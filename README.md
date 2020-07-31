@@ -32,7 +32,7 @@ curl -s --request POST --url "https://${ENDPOINT}/private/api/docs" --header "x-
 curl -ik --request POST --url "https://${ENDPOINT}/private/api/docs" --header "x-ibm-client-id: ${SECRET}" --header 'content-type: application/json' --data "{\"dbname\":\"${DBNAME}\",\"doc\":{}}"
 ```
 
-## How to deploy the reader
+## How to deploy the data-proxy
 
 First, run the following command with parameters for your environment.
 
